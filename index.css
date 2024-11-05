@@ -1,0 +1,15 @@
+ .parent{
+    display: flex;
+ }
+ .child{
+    background-color: blue;
+    height: 100px;
+    width: 400px;
+    margin: 30px;
+ }
+ .child:hover{transform: rotate(45deg);}
+ @media(max-width:800px){
+    .parent{ display: block;}
+    .child:hover{transform: rotate(4deg);}
+   
+ }
