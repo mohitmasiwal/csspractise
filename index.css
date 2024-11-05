@@ -1,15 +1,70 @@
- .parent{
-    display: flex;
- }
- .child{
-    background-color: blue;
+.parent {
+    display: flex; /* Default layout */
+}
+
+.child {
     height: 100px;
     width: 400px;
     margin: 30px;
- }
- .child:hover{transform: rotate(45deg);}
- @media(max-width:800px){
-    .parent{ display: block;}
-    .child:hover{transform: rotate(4deg);}
-   
- }
+    transition: transform 0.3s;
+}
+
+#color1 {
+    background-color: red;
+}
+
+#color2 {
+    background-color: blue;
+}
+
+#color3 {
+    background-color: pink;
+}
+
+#color4 {
+    background-color: silver;
+}
+
+#color5 {
+    background-color: green;
+}
+
+#color6 {
+    background-color: purple;
+}
+
+#color7 {
+    background-color: goldenrod;
+}
+
+#color8 {
+    background-color: skyblue;
+}
+
+#color9 {
+    background-color: yellow;
+}
+
+.child:hover {
+    transform: rotate(45deg);
+    border-radius: 20%;
+}
+
+@media (max-width: 1200px) {
+    .parent {
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(3, 100px); 
+        gap: 20px;  
+    }
+}
+
+@media (max-width: 800px) {
+    .parent {
+        display: block; 
+    }
+    .child:hover {
+        transform: rotate(4deg);  
+      transform: translate(-50%);
+    }
+}
