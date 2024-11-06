@@ -1,15 +1,24 @@
-@media(max-width:650px){
-    .parent{
-        display: block;
-    }
-}
+
 .parent{
-    display:flex;
+    display:block;
    
 }
 .main{
     background-color: red;
     height:100px;
     width: 200px;
-   margin: auto;
+   margin: 25px;
+   
+   ;
+}
+ 
+@media (min-width: 800px) {
+    .parent {
+        display: flex; 
+    }
+}
+@media (min-width: 1000px) {
+    .parent {
+        display: flex; 
+    }
 }
