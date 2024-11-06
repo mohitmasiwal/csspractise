@@ -1,0 +1,11 @@
+@media(min-width:650px){
+    .parent{
+        display: block;
+    }
+}
+.parent{
+    display:flex;
+}
+.main{
+    background-color: red;
+}
