@@ -2,13 +2,35 @@
 .parent{
     display:block;  
 }
-.main:hover{
+.main1:hover{
    transform: rotate(25deg); 
-   border-radius: 50%;   
+   border-radius: 50%; 
+   transition: all 1s ease-in-out; 
+   background-color: cornflowerblue;
 }
-.main{
+.main2:hover {
+    transform:  translate(300px, 50px);  
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    background-color: khaki;
+    background-image: url("https://cdn.pixabay.com/photo/2023/01/30/20/13/devil-7756538_960_720.jpg");
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;  
+    
+ }
+ 
+.main1{
     background-color: red;
-    height:100px;
+    height:200px;
+    width: 200px;
+   margin: 25px;
+   
+   ;
+}
+.main2{
+    background-color: yellow;
+    height:200px;
     width: 200px;
    margin: 25px;
    
