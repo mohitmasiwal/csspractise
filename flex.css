@@ -8,7 +8,13 @@
     background-color:red;
 }
 .child:hover{
-    flex-grow: 0.5;
+    flex-grow: 0.3;
+   
+    border-radius: 50%;
+    transition: all 2s ;
+    background-color: khaki;
     background-image: url("https://cdn.pixabay.com/photo/2023/01/30/20/13/devil-7756538_960_720.jpg");
-    transition:all 2s;
+    background-size: cover;  
+  
+ 
 }
