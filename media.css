@@ -1,0 +1,25 @@
+.parent{
+    display:block;
+   
+   
+}
+.child{
+    height: 200px;
+    width: 200px;
+    background-color:red;
+    margin: 25px;
+}
+@media(min-width:600px){
+    .parent{
+        display:flex;
+        justify-content:center;
+    }
+    .child{
+        transition: all 2s ;
+        background-color: khaki;
+        background-image: url("https://avatars.githubusercontent.com/u/178186536?s=400&u=51c30c646e79977ead8394ed83f7fe4be4f291a4&v=4");
+        background-size: cover; 
+    }
+}
+ 
+ 
