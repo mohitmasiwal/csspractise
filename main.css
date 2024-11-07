@@ -1,7 +1,10 @@
 
 .parent{
-    display:block;
-   
+    display:block;  
+}
+.main:hover{
+   transform: rotate(25deg); 
+   border-radius: 50%;   
 }
 .main{
     background-color: red;
