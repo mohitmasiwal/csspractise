@@ -98,6 +98,13 @@ const usersww = [
   const userMessagesww = users.map(user => `${user.name} is ${user.age} years old.`);
   console.log(userMessages);
   // Output: ["Alice is 25 years old.", "Bob is 30 years old.", "Charlie is 35 years old."]
+  // Original array
+const numbers = [1, 2, 3, 4, 5, 6];
+
+// Filtering out only even numbers
+const evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4, 6]
+
   
   
 
