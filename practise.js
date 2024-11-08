@@ -104,6 +104,23 @@ const numbers = [1, 2, 3, 4, 5, 6];
 // Filtering out only even numbers
 const evenNumbers = numbers.filter(num => num % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4, 6]
+// Array of objects
+const users = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 35 },
+    { name: "David", age: 20 }
+  ];
+  
+  // Filtering users over the age of 25
+  const adults = users.filter(user => user.age > 25);
+  console.log(adults); 
+  // Output: 
+  // [
+  //   { name: "Bob", age: 30 },
+  //   { name: "Charlie", age: 35 }
+  // ]
+  
 
   
   
