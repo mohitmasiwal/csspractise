@@ -83,6 +83,22 @@ const matrix = [
   //   [5, 6, 7],
   //   [8, 9, 10]
   // ]
+  // Array of objects
+const usersww = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 35 }
+  ];
+  
+  // Extracting names using map
+  const namesww = users.map(user => user.name);
+  console.log(names); // Output: ["Alice", "Bob", "Charlie"]
+  
+  // Creating an array with a custom message for each user
+  const userMessagesww = users.map(user => `${user.name} is ${user.age} years old.`);
+  console.log(userMessages);
+  // Output: ["Alice is 25 years old.", "Bob is 30 years old.", "Charlie is 35 years old."]
+  
   
 
   
