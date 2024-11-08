@@ -33,3 +33,9 @@ console.log("After removing Mango:", fruits); // Output: ["Apple", "Banana", "Or
 fruits.forEach((fruit, i) => {
   console.log(`Fruit ${i + 1}: ${fruit}`);
 });
+// Original array
+const numbers = [1, 2, 3, 4, 5];
+
+// Mapping to create a new array with each element doubled
+const doubled = numbers.map(num => num * 2);
+console.log(doubled); // Output: [2, 4, 6, 8, 10]
