@@ -67,5 +67,22 @@ const gradeCategories = grades.map(grade => {
   return "F";
 });
 console.log(gradeCategories); // Output: ["D", "B", "A", "F", "C"]
+// Nested array of numbers
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+  ];
+  
+  // Adding 1 to each element in the nested arrays
+  const incrementedMatrix = matrix.map(row => row.map(num => num + 1));
+  console.log(incrementedMatrix);
+  // Output:
+  // [
+  //   [2, 3, 4],
+  //   [5, 6, 7],
+  //   [8, 9, 10]
+  // ]
+  
 
   
