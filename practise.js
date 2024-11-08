@@ -99,13 +99,13 @@ const usersww = [
   console.log(userMessages);
   // Output: ["Alice is 25 years old.", "Bob is 30 years old.", "Charlie is 35 years old."]
   // Original array
-const numbers = [1, 2, 3, 4, 5, 6];
+const numbersww = [1, 2, 3, 4, 5, 6];
 
 // Filtering out only even numbers
 const evenNumbers = numbers.filter(num => num % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4, 6]
 // Array of objects
-const users = [
+const usersw = [
     { name: "Alice", age: 25 },
     { name: "Bob", age: 30 },
     { name: "Charlie", age: 35 },
