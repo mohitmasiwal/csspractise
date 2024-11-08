@@ -39,3 +39,20 @@ const numbers = [1, 2, 3, 4, 5];
 // Mapping to create a new array with each element doubled
 const doubled = numbers.map(num => num * 2);
 console.log(doubled); // Output: [2, 4, 6, 8, 10]
+
+// Array of objects
+const users = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 35 }
+  ];
+  
+  // Extracting names using map
+  const names = users.map(user => user.name);
+  console.log(names); // Output: ["Alice", "Bob", "Charlie"]
+  
+  // Creating an array with a custom message for each user
+  const userMessages = users.map(user => `${user.name} is ${user.age} years old.`);
+  console.log(userMessages);
+  // Output: ["Alice is 25 years old.", "Bob is 30 years old.", "Charlie is 35 years old."]
+  
