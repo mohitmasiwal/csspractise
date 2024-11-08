@@ -55,4 +55,17 @@ const users = [
   const userMessages = users.map(user => `${user.name} is ${user.age} years old.`);
   console.log(userMessages);
   // Output: ["Alice is 25 years old.", "Bob is 30 years old.", "Charlie is 35 years old."]
+  // Original array
+const grades = [65, 82, 93, 58, 77];
+
+// Categorizing each grade
+const gradeCategories = grades.map(grade => {
+  if (grade >= 90) return "A";
+  if (grade >= 80) return "B";
+  if (grade >= 70) return "C";
+  if (grade >= 60) return "D";
+  return "F";
+});
+console.log(gradeCategories); // Output: ["D", "B", "A", "F", "C"]
+
   
