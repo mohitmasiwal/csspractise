@@ -25,7 +25,12 @@ console.log(a);
    console.log(a);
    a++;
 
-   
+   let count = 5;
+count += 3;  // equivalent to count = count + 3; count is now 8
+count -= 2;  // equivalent to count = count - 2; count is now 6
+count *= 4;  // equivalent to count = count * 4; count is now 24
+count /= 6;  // equivalent to count = count / 6; count is now 4
+
   
 
  
