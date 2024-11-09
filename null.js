@@ -12,6 +12,13 @@ console.log(a);
   let b = 2/0;
   console.log(b);
   console.log( typeof b );
+
+  //arthmatic operator
+   a = 12+2;
+   console.log(a);
+   a = 12-22;
+   console.log(a);
+   //
   
 
  
