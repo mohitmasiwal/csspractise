@@ -8,5 +8,9 @@ console.log(a);
 
  var a=null;
  console.log(a);
+ console.log( typeof a);
+  let b = 2/0;
+  console.log(b);
+
  
 
