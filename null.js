@@ -16,9 +16,13 @@ console.log(a);
   //arthmatic operator
    a = 12+2;
    console.log(a);
-   a = 12-22;
+   a = 32-22;
    console.log(a);
-   //
+   // assignment operator
+   a+=3;
+   console.log(a);
+   a*=2;
+   console.log(a);
   
 
  
