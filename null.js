@@ -31,6 +31,14 @@ count -= 2;  // equivalent to count = count - 2; count is now 6
 count *= 4;  // equivalent to count = count * 4; count is now 24
 count /= 6;  // equivalent to count = count / 6; count is now 4
 
+
+
+let arr = [1, 2, 3];
+arr[1] = 10;  // sets the second element of arr to 10; arr becomes [1, 10, 3]
+
+let person = { name: "John", age: 30 };
+person.age = 31;  // updates the age property of person to 31
+
   
 
  
