@@ -11,6 +11,8 @@ console.log(a);
  console.log( typeof a);
   let b = 2/0;
   console.log(b);
+  console.log( typeof b );
+  
 
  
 
