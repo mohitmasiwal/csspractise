@@ -40,6 +40,12 @@ const replacedAllText = text.replaceAll("cats", "dogs"); // replaces all occurre
 
 console.log(replacedText);     // Output: "I like dogs. Cats are cute."
 console.log(replacedAllText);  // Output: "I like dogs. Dogs are cute."
+const userInput = "   Hello World!   ";
+
+console.log(userInput.trim());       // Output: "Hello World!"
+console.log(userInput.trimStart());  // Output: "Hello World!   "
+console.log(userInput.trimEnd());    // Output: "   Hello World!"
+
 
 
 
