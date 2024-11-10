@@ -18,5 +18,11 @@ const users = [
 const result = emptyArray.some(item => item > 0);
 
 console.log(result); // Output: false
+const numbers = [3, 5, -2, 8, 10];
+
+const hasNegative = numbers.some(num => num < 0);
+
+console.log(hasNegative); // Output: true (because -2 is negative)
+
 
   
