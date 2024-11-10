@@ -13,4 +13,10 @@ const users = [
   const hasAdult = users.some(user => user.age > 18);
   
   console.log(hasAdult); // Output: true (because Bob is over 18)
+  const emptyArray = [];
+
+const result = emptyArray.some(item => item > 0);
+
+console.log(result); // Output: false
+
   
