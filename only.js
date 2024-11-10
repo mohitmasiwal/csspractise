@@ -23,6 +23,12 @@ const numberss = [3, 5, -2, 8, 10];
 const hasNegative = numbers.some(num => num < 0);
 
 console.log(hasNegative); // Output: true (because -2 is negative)
+const largeArray = Array.from({ length: 1000000 }, (_, i) => i); // Array of numbers from 0 to 999999
+
+const hasValue = largeArray.some(num => num === 999999);
+
+console.log(hasValue); // Output: true (found immediately without looping the entire array)
+
 
 
   
