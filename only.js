@@ -28,6 +28,12 @@ const largeArray = Array.from({ length: 1000000 }, (_, i) => i); // Array of num
 const hasValue = largeArray.some(num => num === 999999);
 
 console.log(hasValue); // Output: true (found immediately without looping the entire array)
+const sentence = "The quick brown fox jumps over the lazy dog.";
+
+const hasFox = sentence.includes("fox");
+
+console.log(hasFox); // Output: true
+
 
 
 
