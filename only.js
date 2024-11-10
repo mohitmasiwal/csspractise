@@ -33,6 +33,14 @@ const sentence = "The quick brown fox jumps over the lazy dog.";
 const hasFox = sentence.includes("fox");
 
 console.log(hasFox); // Output: true
+const text = "I like cats. Cats are cute.";
+
+const replacedText = text.replace("cats", "dogs"); // replaces only the first "cats"
+const replacedAllText = text.replaceAll("cats", "dogs"); // replaces all occurrences
+
+console.log(replacedText);     // Output: "I like dogs. Cats are cute."
+console.log(replacedAllText);  // Output: "I like dogs. Dogs are cute."
+
 
 
 
