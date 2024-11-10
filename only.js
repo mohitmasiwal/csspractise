@@ -45,6 +45,12 @@ const userInput = "   Hello World!   ";
 console.log(userInput.trim());       // Output: "Hello World!"
 console.log(userInput.trimStart());  // Output: "Hello World!   "
 console.log(userInput.trimEnd());    // Output: "   Hello World!"
+const word = "Hello";
+
+const repeated = word.repeat(3);
+
+console.log(repeated); // Output: "HelloHelloHello"
+
 
 
 
