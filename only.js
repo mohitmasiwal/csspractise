@@ -92,6 +92,8 @@ observable.notify("Hello Observers!");
 // Output:
 // Subscriber 1: Hello Observers!
 // Subscriber 2: Hello Observers!
+console.log(a);
+
 
 
 
