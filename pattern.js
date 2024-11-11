@@ -34,7 +34,7 @@ for (let i = 0; i < n; i++) {
   }
   console.log(str);
 }
-let n = 5;
+let n3 = 5;
 for (let i = 1; i <= n; i++) {
   console.log(' '.repeat(n - i) + '*' + ' '.repeat(2 * (i - 1) - 1) + (i === 1 ? '' : '*'));
 }
