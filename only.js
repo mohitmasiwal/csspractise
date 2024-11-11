@@ -50,6 +50,26 @@ const word = "Hello";
 const repeated = word.repeat(3);
 
 console.log(repeated); // Output: "HelloHelloHello"
+const Calculator = (function () {
+  let result = 0;
+
+  return {
+    add(value) {
+      result += value;
+    },
+    subtract(value) {
+      result -= value;
+    },
+    getResult() {
+      return result;
+    }
+  };
+})();
+
+Calculator.add(10);
+Calculator.subtract(5);
+console.log(Calculator.getResult()); // Output: 5
+
 
 
 
