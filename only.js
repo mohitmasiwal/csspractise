@@ -69,6 +69,29 @@ const Calculator = (function () {
 Calculator.add(10);
 Calculator.subtract(5);
 console.log(Calculator.getResult()); // Output: 5
+class Observable {
+  constructor() {
+    this.subscribers = [];
+  }
+
+  subscribe(observer) {
+    this.subscribers.push(observer);
+  }
+
+  notify(data) {
+    this.subscribers.forEach(observer => observer(data));
+  }
+}
+
+const observable = new Observable();
+
+observable.subscribe(data => console.log("Subscriber 1:", data));
+observable.subscribe(data => console.log("Subscriber 2:", data));
+
+observable.notify("Hello Observers!"); 
+// Output:
+// Subscriber 1: Hello Observers!
+// Subscriber 2: Hello Observers!
 
 
 
