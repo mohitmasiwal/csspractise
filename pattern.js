@@ -15,4 +15,14 @@ for (let i = 0; i < n; i++) {
     console.log('*' + ' '.repeat(2 * (n - 2) + 1) + '*');
   }
 }
+let n66 = 5;
+for (let i = 1; i <= n; i++) {
+  let str = ' '.repeat(n - i) + '*';
+  if (i > 1) {
+    str += ' '.repeat(2 * (i - 1) - 1) + '*';
+  }
+  console.log(str);
+}
+console.log('*'.repeat(2 * n - 1));  // Base of the pyramid
+
 
